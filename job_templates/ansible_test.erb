@@ -2,15 +2,15 @@
 name: AAAAAAnsible Roles - Ansible TEST
 job_category: Ansible Playbook
 description_format: Run Ansible roles
-feature: ansible_run_host
+feature: AAAAAAnsible_Roles_Ansible TEST
 snippet: false
-provider_type: Ansible
+provider_type: AAAAAAnsible
 kind: job_template
 model: JobTemplate
 %>
 
 ---
-- hosts: all
+- hosts: LOCALHOST_MAKE_ME_ERROR
   pre_tasks:
     - name: Display all parameters known for the Foreman host
       debug:
